@@ -10,7 +10,7 @@
 
 ## 🍅 Pomodoro 1
 
-* ⚠ should give an error message when the input is not a string
+* 🚧 should give an error message when the input is not a string
 * ⚠ should give 'aa' for the input 'a'
 * ⚠ should give 'AA' for the input 'A'
 * ⚠ should give 'SSttrriinngg' for the input 'String'
