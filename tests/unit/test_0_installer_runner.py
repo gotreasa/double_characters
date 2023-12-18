@@ -11,3 +11,7 @@ def describe_double_char():
     def should_double_a_single_lowercase_letter():
         """🧪 should give 'aa' for the input 'a'"""
         assert double_characters.double_chars("a") == "aa"
+
+    def should_double_a_single_uppercase_letter():
+        """🧪 should give 'AA' for the input 'A'"""
+        assert double_characters.double_chars("A") == "AA"
