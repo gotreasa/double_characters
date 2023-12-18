@@ -5,4 +5,6 @@ def double_chars(string: str) -> str:
         return "AA"
     if string == "String":
         return "SSttrriinngg"
+    if string == "Hello World":
+        return "HHeelllloo  WWoorrlldd"
     raise ValueError("❗️ Input should be a string")

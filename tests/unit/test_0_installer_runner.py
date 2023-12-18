@@ -19,3 +19,8 @@ def describe_double_char():
     def should_double_the_letters_for_one_word():
         """🧪 should give 'SSttrriinngg' for the input 'String'"""
         assert double_characters.double_chars("String") == "SSttrriinngg"
+        assert double_characters.double_chars("A") == "AA"
+
+    def should_double_the_letters_for_two_words():
+        """🧪 should give 'HHeelloo WWoorrlldd' for the input 'Hello World'"""
+        assert double_characters.double_chars("Hello World") == "HHeelllloo  WWoorrlldd"
