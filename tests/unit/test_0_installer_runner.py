@@ -24,3 +24,8 @@ def describe_double_char():
     def should_double_the_letters_for_two_words():
         """🧪 should give 'HHeelloo WWoorrlldd' for the input 'Hello World'"""
         assert double_characters.double_chars("Hello World") == "HHeelllloo  WWoorrlldd"
+        assert double_characters.double_chars("A") == "AA"
+
+    def should_double_the_letters_for_text_with_a_space_at_the_end():
+        """🧪 should give '11223344!!__  ' for the input '1234!_ '"""
+        assert double_characters.double_chars("1234!_ ") == "11223344!!__  "
