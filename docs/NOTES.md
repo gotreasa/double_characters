@@ -15,4 +15,4 @@
 * ✅ should give 'AA' for the input 'A'
 * ✅ should give 'SSttrriinngg' for the input 'String'
 * ✅ should give 'HHeelloo WWoorrlldd' for the input 'Hello World' 
-* 🚧 should give '11223344!!__  ' for the input '1234!_ '
+* ✅ should give '11223344!!__  ' for the input '1234!_ '
